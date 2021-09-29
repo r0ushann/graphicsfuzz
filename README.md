@@ -32,7 +32,7 @@ tool is the recommended way of automatically downloading and running our fuzzers
 
 ### glsl-fuzz
 
-* The glsl-fuzz tools are developed in this repo
+* The glsl-fuzz tools are developed in this repository.
 * [How it works (high-level): metamorphic testing using glsl-fuzz](docs/glsl-fuzz-intro.md)
 * [glsl-fuzz walkthrough](docs/glsl-fuzz-walkthrough.md)
 * [glsl-generate manual](docs/glsl-fuzz-generate.md)
