@@ -3,29 +3,32 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Build Status](https://github.com/google/graphicsfuzz/workflows/.github/workflows/graphicsfuzz.yml/badge.svg)](https://github.com/google/graphicsfuzz/actions)
 
+
+
 ## GraphicsFuzz is a set of tools for testing shader compilers
 
 GraphicsFuzz provides tools for automatically finding and simplifying bugs in graphics drivers,
 specifically graphics shader compilers. The glsl-fuzz and glsl-reduce tools manipulate GLSL shaders, targeting SPIR-V compilers via translation.
 The spirv-fuzz and spirv-reduce tools directly manipulate SPIR-V shaders.
 
-## Download and run
+
+
+## Download and run!
 
 Follow the [gfauto README](https://github.com/google/graphicsfuzz/tree/master/gfauto#gfauto).
 The [gfauto](https://github.com/google/graphicsfuzz/tree/master/gfauto#gfauto) command line
-tool is the
-recommended way of automatically downloading and running our fuzzers to test Vulkan drivers in a "push-button" fashion with minimal interaction. See below if you want to read about
-individual tools and/or use
-them as standalone command line tools.
+tool is the recommended way of automatically downloading and running our fuzzers to test Vulkan drivers in a "push-button" fashion with minimal interaction. See below if you want to read about individual tools and/or use them as standalone command line tools.
+
 
 
 ## Tool documentation
 
-* **[gfauto](https://github.com/google/graphicsfuzz/tree/master/gfauto#gfauto)**: the recommended way of automatically downloading and running our fuzzers to test Vulkan drivers in a "push-button" fashion with minimal interaction
-* **glsl-fuzz**: a family of tools for testing GLSL shader compilers using randomized metamorphic testing
-* **glsl-reduce**: a stand-alone GLSL shader reducer
+* **[gfauto](https://github.com/google/graphicsfuzz/tree/master/gfauto#gfauto)**: the recommended way of automatically downloading and running our fuzzers to test Vulkan drivers in a "push-button" fashion with minimal interaction.
+* **glsl-fuzz**: a family of tools for testing GLSL shader compilers using randomized metamorphic testing.
+* **glsl-reduce**: a stand-alone GLSL shader reducer.
 * **spirv-fuzz**: a stand-alone SPIR-V shader fuzzer and shrinker that uses randomized metamorphic testing
-* **spirv-reduce**: a stand-alone SPIR-V shader reducer
+* **spirv-reduce**: a stand-alone SPIR-V shader reducer.
+.
 
 ### glsl-fuzz
 
@@ -40,7 +43,7 @@ them as standalone command line tools.
 
 ### glsl-reduce
 
-* glsl-reduce is developed in this repo
+* glsl-reduce is developed in this repository.
 * [Introduction: my shader is being weird, now what?](docs/glsl-reduce-intro.md)
 * [glsl-reduce walkthrough](docs/glsl-reduce-walkthrough.md)
 * [glsl-reduce manual](docs/glsl-reduce.md)
@@ -60,11 +63,14 @@ them as standalone command line tools.
 * Try our [spirv-fuzz walkthrough](docs/finding-a-vulkan-driver-bug-using-spirv-fuzz.md) (includes use of spirv-reduce) that can be run from your browser
 
 
+
 ## Contribute
 
 * [Contributing (requires Google CLA)](CONTRIBUTING.md)
 * [License (Apache 2.0)](LICENSE)
 * [Developer documentation for glsl-fuzz](docs/glsl-fuzz-develop.md)
+
+
 
 ## Further reading
 
@@ -79,6 +85,8 @@ them as standalone command line tools.
 * 12 March 2018: [Samsung Galaxy S6, S7 (ARM, Qualcomm)](https://medium.com/@afd_icl/not-all-galaxies-are-made-equal-9812d6dcc0bb)
 * 22 May 2018: [Samsung Galaxy S9 (ARM, Qualcomm)](https://medium.com/@afd_icl/samsung-s9s-head-to-head-arm-vs-qualcomm-decf438eb255)
 
+
+
 ### Academic research project blog posts:
 
 * 30 November 2016: [Intro](https://medium.com/@afd_icl/crashes-hangs-and-crazy-images-by-adding-zero-689d15ce922b)
@@ -89,6 +97,8 @@ them as standalone command line tools.
 * 20 December 2016: [Intel](https://medium.com/@afd_icl/intel-locking-up-safari-bluescreening-windows-135c1dc29495)
 * 25 January 2017: [Nvidia](https://medium.com/@afd_icl/nvidia-system-freeze-via-webgl-61a78cea1116)
 * 1 February 2017: [Qualcomm](https://medium.com/@afd_icl/hey-a-web-page-just-restarted-my-phone-c06d3db76542)
+
+
 
 ### Academic publications:
 
